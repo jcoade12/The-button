@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #3498db;
+    color: #fff;
+}
+
+.top-bar {
+    background-color: #5faad7;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #5faad7;
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: transform 0.3s ease; /* Add a smooth transition effect */
+}
+
+button:hover {
+    transform: scale(1.1); /* Scale up the button on hover */
+}

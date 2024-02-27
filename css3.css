@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.top-bar {
+    background-color: #00ff2f; /* Lighter shade for the top bar */
+    padding: 10px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #02ff63; /* Lighter shade for the bottom bar */
+    padding: 10px;
+    text-align: center;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #00ff26;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
